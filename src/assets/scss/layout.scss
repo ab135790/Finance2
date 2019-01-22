@@ -1,0 +1,6 @@
+@import 'varible.scss';
+
+@mixin pancel() {
+  background-color: $bgColor;
+  margin-bottom: $mabt;
+}

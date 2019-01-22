@@ -1,0 +1,33 @@
+@import '~assets/scss/mixins';
+.g-view-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 50px;
+}
+.g-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.g-container-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 0 10px 0 hsla(0, 6%, 58%, 0.6);
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: $bgColor;
+}
+.saveSliderActive {
+  color: $color;
+}
+.swiper-pagination-fraction {
+  width: 30%;
+  color: #ccc;
+  left: 75%;
+  font-size: $ftSize-base-m;
+}
